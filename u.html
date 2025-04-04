@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my family</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #84ff00;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            width: 200px;
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        .video {
+            background-color: #000;
+            color: white;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .video img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .video-title {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        My Home
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Trending</a>
+        <a href="#">Subscriptions</a>
+        <a href="#">Library</a>
+    </nav>
+    <main>
+        <div class="video">
+            <img src="<iframe width="400" height="315" src="https://www.youtube.com/embed/l57TyY_hjvg?si=q5cDRrJfj48qNaiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" >
+            <div class="motivation"></div>
+            <p>telugu geeks </p>
+        </div>
+        <div class="video">
+            <img src="<iframe width="400" height="315" src="https://www.youtube.com/embed/P07PYnjYBUg?si=NerI5cbGtpRWLUuv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" >
+            <div class="motivation"></div>
+            <p>Channel Name</p>
+        </div>
+    </main>
+</body>
+</html>
